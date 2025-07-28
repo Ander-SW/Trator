@@ -9,7 +9,5 @@ const palavras = texto.split(" ");
 
 const campoResultado = document.querySelector("#resultado-palavrachave");
 
-const palavras = texto.split(" ");
-
- campoResultado.textContent = palavras;
+ campoResultado.textContent = palavras.join(", ");
 }
